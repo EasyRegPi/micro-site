@@ -1,11 +1,39 @@
 .features {
   display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+}
+
+.featureItem {
+  flex: 1 1 300px; /* Define um tamanho mínimo para cada item e permite que eles se ajustem */
+  text-align: center;
+  max-width: 350px; /* Evita que os elementos fiquem muito largos em telas grandes */
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: auto;
+  width: 100%;
+  max-width: 200px; /* Garante que a imagem não ultrapasse um certo tamanho */
+}
+
+.featureCard {
+  background: #f9f9f9; /* Cor de fundo padrão */
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #d4edda; /* Verde clarinho ao passar o rato */
+}
+
+.featureImage {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+  margin-bottom: 1rem;
 }

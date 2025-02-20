@@ -6,75 +6,74 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #FF9843; /* Nova cor primária */
-  --ifm-color-primary-dark: #E57C2B; /* Mais escuro que a cor primária, para contraste */
-  --ifm-color-primary-darker: #CC6A1E; /* Ainda mais escuro, para detalhes ou ênfase */
-  --ifm-color-primary-darkest: #B35812; /* O tom mais escuro, para forte contraste */
-  --ifm-color-primary-light: #FFA85C; /* Mais claro que a cor primária, para fundos suaves */
-  --ifm-color-primary-lighter: #FFB76F; /* Ainda mais claro, para realces ou áreas de foco suave */
-  --ifm-color-primary-lightest: #FFC785; /* O tom mais claro, para fundos muito suaves ou realces discretos */
+  --ifm-color-primary: #28A745; /* Verde principal */
+  --ifm-color-primary-dark: #218838; /* Um verde mais escuro para contraste */
+  --ifm-color-primary-darker: #1E7E34; /* Ainda mais escuro, para detalhes */
+  --ifm-color-primary-darkest: #19692C; /* Tom mais escuro para contraste forte */
+  --ifm-color-primary-light: #34D058; /* Verde mais claro para fundos suaves */
+  --ifm-color-primary-lighter: #85E89D; /* Ainda mais claro, para realces */
+  --ifm-color-primary-lightest: #C6F6D5; /* O tom mais claro, para fundos muito suaves */
   --ifm-code-font-size: 95%; /* Mantendo inalterado */
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1); /* Mantendo inalterado */
+  --docusaurus-highlighted-code-line-bg: rgba(40, 167, 69, 0.1); /* Suave no modo claro */
+  --ifm-color-secondary: #FFFFFF; /* Branco como cor secundária */
 }
-
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #FF9843; /* Adotando a nova cor primária também para o modo escuro */
-  --ifm-color-primary-dark: #E57C2B; /* Escuro para contraste */
-  --ifm-color-primary-darker: #CC6A1E; /* Ainda mais escuro para detalhes ou ênfase */
-  --ifm-color-primary-darkest: #B35812; /* O mais escuro para forte contraste */
-  --ifm-color-primary-light: #FFA85C; /* Mais claro que a primária, adaptado ao modo escuro */
-  --ifm-color-primary-lighter: #FFB76F; /* Ainda mais claro, suave */
-  --ifm-color-primary-lightest: #FFC785; /* O mais claro, para realces discretos */
-  --docusaurus-highlighted-code-line-bg: rgba(255, 152, 67, 0.2); /* Adaptação para oferecer contraste sutil no modo escuro */
+  --ifm-color-primary: #34D058; /* Verde claro para modo escuro */
+  --ifm-color-primary-dark: #28A745; /* Verde original, para contraste */
+  --ifm-color-primary-darker: #218838; /* Mais escuro */
+  --ifm-color-primary-darkest: #1E7E34; /* Verde forte para elementos destacados */
+  --ifm-color-primary-light: #85E89D; /* Verde mais claro, adaptado ao modo escuro */
+  --ifm-color-primary-lighter: #C6F6D5; /* Ainda mais claro, para destaques suaves */
+  --ifm-color-primary-lightest: #E6FFFA; /* Verde bem suave para fundos */
+  --docusaurus-highlighted-code-line-bg: rgba(52, 208, 88, 0.2); /* Adaptação no modo escuro */
+  --ifm-color-secondary: #FFFFFF; /* Mantendo branco como secundário */
 }
+
 
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-/* jira icon */
+/* GitHub Projects Icon */
 
-html[data-theme='light'] .jira-link {
+html[data-theme='light'] .githubprojects-link {
   align-items: center;
   display: flex;
 }
 
-html[data-theme='light'] .jira-link:before {
+html[data-theme='light'] .githubprojects-link:before {
     align-self: center;
-    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDQ5NiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQ5MCAyNDEuN0M0MTcuMSAxNjkgMzIwLjYgNzEuOCAyNDguNSAwIDgzIDE2NC45IDYgMjQxLjcgNiAyNDEuN2MtNy45IDcuOS03LjkgMjAuNyAwIDI4LjdDMTM4LjggNDAyLjcgNjcuOCAzMzEuOSAyNDguNSA1MTJjMzc5LjQtMzc4IDE1LjctMTYuNyAyNDEuNS0yNDEuNyA4LTcuOSA4LTIwLjcgMC0yOC42em0tMjQxLjUgOTBsLTc2LTc1LjcgNzYtNzUuNyA3NiA3NS43LTc2IDc1Ljd6Ii8+PC9zdmc+") 0 0/contain;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAA9CAYAAAAZIL/8AAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAAAmdEVYdENyZWF0aW9uIFRpbWUAcXVhIDE5IGZlYiAyMDI1IDE2OjUzOjM4uFhVMgAAAkpJREFUaIHt2s1LFHEcx/GPQ1dLY9PQNjMRzx22JAlC6NHCIgsqoqBj1/6Mrh2DLl4MLPOptidEpAcPXd1dtzA6VNrDWkTtYerycXEgZ+a74+6s9HmdHP39hq9v94FZp+7nr+IfCJy4B6gVCkEKQQpBCkGbwixa+vwFw6OTeDn7utLzRLIvtQcD/X3Y2thg3lsX9Pb5dGoGg0N3yx4uDlcunsOB/XtNe3yfGnPZ+Q0XAQBuDw5h4d170x7fEA+fTEUaKE6Pnk2b1vu+RmSyec9xY8MW9HSn4DjBr7H3J9Ke467ODnR1dpiGC8t1Xcy8mMXXb4XS9+ay86Zz+Ib4XSx6jnu6Uzh98mioE/8rRH/fYdNwVmMPHpe+Xh0lDNPbZ5hHQlyizla7v1mVKQQpBCkEKQQpBCkEKQT5Xn1evXa9mrOsu1s3b4Req0cEKQQpBIX6qG6F5VK6mpfhAJDJ5ZHJ5YMXrsEcIuyldLUvw0fG05FC6KlBCkEKQQpBCkEKQQpBCkEKQQpBCkEKQQpBCkEKQQpBCkEKQQpBCkEKQaYQrutWao7Ios7m+3F+07YEPi0ulY6nn78CUN6NW5lcHiPj6eCFZVi5vXC15qaE6Ry+IZKtLZ4QhcKy5xY+i6j/gLFqS+4wrff90x47dLCmbylci+M4OH6k17bH74ftu3bi0vkzkYaKw+ULA0i2tpj2BN6dDwBv3i7gzr0xfPi4iOXvP8oesJI219dje3MCZ0+dwO72NvP+UCH+BxvvBaBCFIIUghSCFIIUgv4C0uKXq09JZvwAAAAASUVORK5CYII=") 0 0/contain;
     content: '';
     display: inline-flex;
     height: 24px;
     width: 24px;
     margin-right: 0.5rem;
-    color: var(--ifm-navbar-link-color);
-  }
+}
 
-html[data-theme='light'] .jira-link:hover:before {
-      background: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDk2IDUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNDkwIDI0MS43QzQxNy4xIDE2OSAzMjAuNiA3MS44IDI0OC41IDAgODMgMTY0LjkgNiAyNDEuNyA2IDI0MS43Yy03LjkgNy45LTcuOSAyMC43IDAgMjguN0MxMzguOCA0MDIuNyA2Ny44IDMzMS45IDI0OC41IDUxMmMzNzkuNC0zNzggMTUuNy0xNi43IDI0MS41LTI0MS43IDgtNy45IDgtMjAuNyAwLTI4LjZ6bS0yNDEuNSA5MC03Ni03NS43IDc2LTc1LjcgNzYgNzUuNy03NiA3NS43eiIgZmlsbD0iI2ZmOTg0MyIgY2xhc3M9ImZpbGwtMDAwMDAwIj48L3BhdGg+PC9zdmc+") 0 0/contain;
-    }
+html[data-theme='light'] .githubprojects-link:hover:before {
+    opacity: 0.7; /* Efeito hover */
+}
 
-
-html[data-theme='dark'] .jira-link {
+html[data-theme='dark'] .githubprojects-link {
   align-items: center;
   display: flex;
 }
 
-html[data-theme='dark'] .jira-link:before {
+html[data-theme='dark'] .githubprojects-link:before {
     align-self: center;
-    background: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIzLjMyMyAxMS4zMyAxMy4wMDEgMSAxMiAwIDQuMjI1IDcuNzc1LjY3IDExLjMzYS45Ni45NiAwIDAgMCAwIDEuMzQ3bDcuMTAzIDcuMTAzTDEyIDI0bDcuNzcxLTcuNzcxLjEyMS0uMTIxIDMuNDMxLTMuNDMxYS45NDUuOTQ1IDAgMCAwIDAtMS4zNDd6TTEyIDE1LjU1MSA4LjQ0OSAxMiAxMiA4LjQ1MyAxNS41NDggMTIgMTIgMTUuNTUxeiIgZmlsbD0iI2ZmZmZmZiIgY2xhc3M9ImZpbGwtMDAwMDAwIj48L3BhdGg+PC9zdmc+");
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAA9CAYAAAAZIL/8AAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAAAmdEVYdENyZWF0aW9uIFRpbWUAcXVhIDE5IGZlYiAyMDI1IDE2OjUzOjM4uFhVMgAAAkpJREFUaIHt2s1LFHEcx/GPQ1dLY9PQNjMRzx22JAlC6NHCIgsqoqBj1/6Mrh2DLl4MLPOptidEpAcPXd1dtzA6VNrDWkTtYerycXEgZ+a74+6s9HmdHP39hq9v94FZp+7nr+IfCJy4B6gVCkEKQQpBCkGbwixa+vwFw6OTeDn7utLzRLIvtQcD/X3Y2thg3lsX9Pb5dGoGg0N3yx4uDlcunsOB/XtNe3yfGnPZ+Q0XAQBuDw5h4d170x7fEA+fTEUaKE6Pnk2b1vu+RmSyec9xY8MW9HSn4DjBr7H3J9Ke467ODnR1dpiGC8t1Xcy8mMXXb4XS9+ay86Zz+Ib4XSx6jnu6Uzh98mioE/8rRH/fYdNwVmMPHpe+Xh0lDNPbZ5hHQlyizla7v1mVKQQpBCkEKQQpBCkEKQT5Xn1evXa9mrOsu1s3b4Req0cEKQQpBIX6qG6F5VK6mpfhAJDJ5ZHJ5YMXrsEcIuyldLUvw0fG05FC6KlBCkEKQQpBCkEKQQpBCkEKQQpBCkEKQQpBCkEKQQpBCkEKQQpBCkEKQaYQrutWao7Ios7m+3F+07YEPi0ulY6nn78CUN6NW5lcHiPj6eCFZVi5vXC15qaE6Ry+IZKtLZ4QhcKy5xY+i6j/gLFqS+4wrff90x47dLCmbylci+M4OH6k17bH74ftu3bi0vkzkYaKw+ULA0i2tpj2BN6dDwBv3i7gzr0xfPi4iOXvP8oesJI219dje3MCZ0+dwO72NvP+UCH+BxvvBaBCFIIUghSCFIIUgv4C0uKXq09JZvwAAAAASUVORK5CYII=") 0 0/contain;
     content: '';
     display: inline-flex;
     height: 24px;
     width: 24px;
     margin-right: 0.5rem;
-    color: var(--ifm-navbar-link-color);
-  }
+}
 
-html[data-theme='dark'] .jira-link:hover:before {
-      background: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDk2IDUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNDkwIDI0MS43QzQxNy4xIDE2OSAzMjAuNiA3MS44IDI0OC41IDAgODMgMTY0LjkgNiAyNDEuNyA2IDI0MS43Yy03LjkgNy45LTcuOSAyMC43IDAgMjguN0MxMzguOCA0MDIuNyA2Ny44IDMzMS45IDI0OC41IDUxMmMzNzkuNC0zNzggMTUuNy0xNi43IDI0MS41LTI0MS43IDgtNy45IDgtMjAuNyAwLTI4LjZ6bS0yNDEuNSA5MC03Ni03NS43IDc2LTc1LjcgNzYgNzUuNy03NiA3NS43eiIgZmlsbD0iI2ZmOTg0MyIgY2xhc3M9ImZpbGwtMDAwMDAwIj48L3BhdGg+PC9zdmc+") 0 0/contain;
-    }
+html[data-theme='dark'] .githubprojects-link:hover:before {
+    opacity: 0.7; /* Efeito hover */
+}
 
 /* Drive icon */
 

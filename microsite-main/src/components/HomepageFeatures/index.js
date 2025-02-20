@@ -4,39 +4,47 @@ import styles from "./styles.module.css";
 import image1 from "@site/static/img/image1.png";
 import image2 from "@site/static/img/image2.png";
 import image3 from "@site/static/img/image3.png";
+import image4 from "@site/static/img/image4.png";
 
 const FeatureList = [
   {
-    title: "Predictive Analytics",
+    title: "Centralized Compliance Management",
     ImgSrc: image1,
     description: (
       <>
-        Trailblazer empowers DMOs with advanced predictive analytics, allowing
-        them to foresee tourism trends and make informed decisions in
-        infrastructure, marketing, and sustainability practices.
+        Develop EasyReg as a platform to manage compliance requirements
+        across multiple security frameworks.
       </>
     ),
   },
   {
-    title: "Personalized Travel Experiences",
+    title: "Automated Tracking & Reporting",
     ImgSrc: image2,
     description: (
       <>
-        The system analyzes tourists' feedback to enhance service quality and
-        personalize travel experiences. A recommendation engine curates
-        activities tailored to individual interests, fostering seamless
-        exploration of new experiences.
+        Provide automated tracking and reporting of compliance status to 
+        ensure up-to-date insights within EasyReg.
       </>
     ),
   },
   {
-    title: "Sustainable Tourism Development",
+    title: "Audit Efficiency",
     ImgSrc: image3,
     description: (
       <>
-        DMOs are equipped with sophisticated analytical tools for sustainable
-        tourism development, ensuring a balance between tourism growth and
-        environmental conservation.
+        Reduce manual efforts in regulatory audits and evidence collection, 
+        streamlining compliance processes with EasyReg.
+      </>
+    ),
+  },
+  {
+    title: "Implementation Transparency",
+    ImgSrc: image4,
+    description: (
+      <>
+        Provide a clear and concise overview of the implementation status of 
+        a specific norm or regulation for all relevant roles in the process, 
+        ensuring visibility through EasyReg.
       </>
     ),
   },
@@ -44,13 +52,19 @@ const FeatureList = [
 
 function Feature({ ImgSrc, title, description }) {
   return (
-    <div className={clsx("col col--4")}>
-      <div className="text--center">
-        <img src={ImgSrc} alt={title} style={{ width: "250px" }} />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+    <div className={clsx("col col--12 col-md--6")}>
+      <div className={styles.featureCard}>
+        <div className="text--center">
+          <img 
+            src={ImgSrc} 
+            alt={title} 
+            className={styles.featureImage} 
+          />
+        </div>
+        <div className="text--center padding-horiz--md">
+          <Heading as="h3">{title}</Heading>
+          <p>{description}</p>
+        </div>
       </div>
     </div>
   );

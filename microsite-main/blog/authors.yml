@@ -1,29 +1,20 @@
-hugo:
-  name: Hugo Correia
-  url: https://github.com/MrLoydHD
-  image_url: https://github.com/MrLoydHD.png
+miguels:
+  name: Miguel Francisco
+  url: https://github.com/MiguelSoaresFrancisco2
+  image_url: https://github.com/MiguelSoaresFrancisco2.png
 
-alexandre:
-  name: Alexandre Cotorobai
-  url: https://github.com/AlexandreCotorobai
-  image_url: https://github.com/AlexandreCotorobai.png
+miguelp:
+  name: Miguel Pinto
+  url: https://github.com/M10D12
+  image_url: https://github.com/M10D12.png
 
-bernardo:
-  name: Bernardo Figueiredo
-  url: https://github.com/LeikRad
-  image_url: https://github.com/LeikRad.png
+goncalom:
+  name: Gonçalo Monteiro
+  url: https://github.com/Girafa3456
+  image_url: https://github.com/Girafa3456.png
 
-duarte:
-  name: Duarte Cruz
-  url: https://github.com/DuarteCruz31
-  image_url: https://github.com/DuarteCruz31.png
+filipeo:
+  name: Filipe Oliveira
+  url: https://github.com/filipeoliveira0
+  image_url: https://github.com/filipeoliveira0.png
 
-andre:
-  name: André Oliveira
-  url: https://github.com/andreaoliveira9
-  image_url: https://github.com/andreaoliveira9.png
-
-jake:
-  name: Joaquim Rosa
-  url: https://github.com/JakeRosa
-  image_url: https://github.com/JakeRosa.png

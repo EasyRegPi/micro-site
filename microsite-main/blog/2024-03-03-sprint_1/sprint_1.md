@@ -1,20 +1,20 @@
 ---
 slug: Sprint 1
 title: Sprint 1
-authors: [hugo]
+authors: [miguels]
 ---
 
 # Sprint 1
 
-**From**: 2024-03-02
+**From**: 2025-02-19
 
-**To**: 2024-03-05
+**To**: 2025-02-25
 
-**Scrum Master**: Hugo Correia
+**Scrum Master**: Miguel Francisco
 
-**Product Owner**: Duarte Cruz
+**Product Owner**: Gonçalo Monteiro
 
-**Developers**: Alexandre Cotorobai, Bernardo Figueiredo, Joaquim Rosa, André Oliveira
+**Developers**: Miguel Pinto, Filipe Oliveira
 
 ## Sprint Goal
 
@@ -68,7 +68,7 @@ In order to complete the second milestone of our project, it is expectable to co
 | ------------ | -------- |
 | Tasks        | 7        |
 | Epics        | 1        |
-| Story Points | 35       |
+| Story Points | 36       |
 
 ## Sprint Retrospective
 

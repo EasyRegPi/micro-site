@@ -11,23 +11,23 @@ sidebar_position: 3
     <th>Description</th>
   </tr>
   <tr>
-    <td>27/02/2024</td>
+    <td>25/02/2025</td>
     <td><b>Objectives and Calendar</b></td>
-    <td>Requirement Gathering, Roles and Goals</td>
+    <td>Presentation of the lifecycle objectives and calendar for the project.</td>
   </tr>
   <tr>
-    <td>12/03/2024</td>
+    <td>11/03/2025</td>
     <td><b>Lifecycle architecture</b></td>
-    <td>Use Cases, Architecture, Dev Environment Setup, Mockups and Static Prototyping</td>
+    <td>Presentation of the lifecycle architecture; the milestone is achieved when the architecture has been validated</td>
   </tr>
   <tr>
-    <td>16/04/2024 or 23/04/2024</td>
-    <td><b>First MVP</b></td>
-    <td>Web App, API, Database Integration and BackOffice</td>
+    <td>08/04/2025 or 15/04/2025</td>
+    <td><b>Mid-Term presentation and Prototype</b></td>
+    <td>: prototype; mid-term presentation with supervisors.</td>
   </tr>
   <tr>
-    <td>04/06/2024</td>
-    <td><b>Second MVP</b></td>
-    <td>ML Integration, Data Aggregation, Documentation Finalization, Final Deployment</td>
+    <td>27/05/2024</td>
+    <td><b>Ending</b></td>
+    <td>Documentation Finalization, Final Deployment</td>
   </tr>
 </table>

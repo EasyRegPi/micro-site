@@ -6,19 +6,21 @@ sidebar_position: 1
 
 ## Brief Overview of the Project
 
-Trailblazer is a groundbreaking initiative aimed at revitalizing the tourism industry through the integration of Machine Learning (ML) and Natural Language Processing (NLP) technologies. By developing an advanced Destination Management System (DMS), Trailblazer seeks to empower Destination Management Organizations (DMOs) with predictive analytics to foresee trends and make informed decisions in infrastructure, marketing, and sustainability practices. The system analyzes tourists' feedback across various platforms to derive insights into preferences and sentiments, enhancing service quality and personalizing travel experiences. At its core, Trailblazer features a personalized recommendation engine that curates activities tailored to individual interests, fostering a seamless exploration of new experiences while enabling providers to effectively showcase their offerings. This multifaceted approach benefits tourists with customized travel suggestions, provides attraction providers with valuable market insights, and equips DMOs with sophisticated analytical tools for sustainable tourism development.
+In today's digital landscape, organizations must comply with an increasing number of regulatory and security standards, such as SOC 2, ISO 27001, HIPAA, PCI DSS, NIST CSF, and more. These frameworks are designed to enhance security and protect sensitive data, but managing compliance across multiple standards is complex, time-consuming, and expensive.
 
-- **Complete Overview**: [Trailblazer -  An ML Augmented DMS](../../../static/pdfs/04%20Trailblazer%20-%20%20An%20ML%20Augmented%20DMS.pdf)
+The traditional approach to compliance involves manual tracking, scattered documentation, and time-consuming audits, which often lead to inefficiencies, inconsistencies, and increased operational costs. Organizations must invest significant resources in identifying requirements, collecting evidence, and preparing for audits, which can divert focus from core business operations.
+
+To address these challenges, EasyReg offers a centralized, automated compliance management solution. By simplifying compliance tracking and automating key processes, EasyReg helps organizations meet their security and regulatory obligations efficiently, reducing manual effort and ensuring continuous compliance.
+
+- **Complete Overview**: [EasyReg - Security Compliance Platform](../../../static/pdfs/EasyReg.pdf)
 
 ### Key Features
 
-- **Personalized Recommendations**: Tailored travel suggestions based on individual preferences and interests.
-- **Sentiment Analysis**: Derive insights from tourists' feedback to enhance service quality and personalizing travel experiences.
-- **Predictive Analytics**: Empower Destination Management Organizations (DMOs) with predictive analytics to foresee trends and make informed decisions in infrastructure, marketing, and sustainability practices.
-- **Curated Activities**: Foster a seamless exploration of new experiences while enabling providers to effectively showcase their offerings.
-- **Market Insights**: Provides attraction providers with valuable market insights.
-- **Auto-Tagging**: Automatically tag reviews and events to improve the recommendation engine and sentiment analysis.
-- **Automation**: Optimize workflows using automated tagging and sentiment analysis, reducing manual tasks to improve service quality and efficiency in the tourism sector.
+- **Compliance Management Dashboard**: Unified interface for monitoring compliance across multiple frameworks, providing real-time visibility and insights.
+- **Automated Compliance Tracking**: Leverage predefined templates for regulatory requirements, enabling automated evidence collection and gap analysis.
+- **Audit Readiness & Reporting**: Simplify audit preparation with automated report generation and enforce role-based access control for secure document management.
+- **Framework Mapping & Cross-Compliance**: Streamline compliance efforts by mapping requirements across multiple frameworks and identifying overlapping controls for optimization.
+
 
 ### Project Schema
 
@@ -37,51 +39,36 @@ Trailblazer is a groundbreaking initiative aimed at revitalizing the tourism ind
     <th>Roles</th>
   </tr>
   <tr>
-    <td>107849</td>
-    <td>Alexandre Cotorobai</td>
-    <td><a href="mailto:alexandrecotorobai@ua.pt">alexandrecotorobai@ua.pt</a></td>
-    <td><a href="https://github.com/AlexandreCotorobai">AlexandreCotorobai</a></td>
+    <td>108304</td>
+    <td>Miguel Francisco</td>
+    <td><a href="mailto:miguel.soares.francisco@ua.pt">miguel.soares.francisco@ua.pt</a></td>
+    <td><a href="https://github.com/MiguelSoaresFrancisco2">MiguelSoaresFrancisco2</a></td>
+    <td>Backend</td>
+  </tr>
+  <tr>
+    <td>108481</td>
+    <td>Miguel Pinto</td>
+    <td><a href="mailto:miguel18@ua.pt">miguel18@ua.pt</a></td>
+    <td><a href="https://github.com/M10D12">M10D12</a></td>
     <td>Database</td>
   </tr>
   <tr>
-    <td>108215</td>
-    <td>Hugo Correia</td>
-    <td><a href="mailto:hf.correia@ua.pt">hf.correia@ua.pt</a></td>
-    <td><a href="https://github.com/MrLoydHD">MrLoydHD</a></td>
+    <td>107758</td>
+    <td>Gonçalo Monteiro</td>
+    <td><a href="mailto:goncalo.monteiro@ua.pt">goncalo.monteiro@ua.pt</a></td>
+    <td><a href="https://github.com/Girafa3456">Girafa3456</a></td>
     <td>Frontend</td>
   </tr>
   <tr>
-    <td>109089</td>
-    <td>Joaquim Rosa</td>
-    <td><a href="mailto:joaquimvr15@ua.pt">joaquimvr15@ua.pt</a></td>
-    <td><a href="https://github.com/JakeRosa">JakeRosa</a></td>
-    <td>Database</td>
-  </tr>
-  <tr>
-    <td>108073</td>
-    <td>Bernardo Figueiredo</td>
-    <td><a href="mailto:bernardo.figueiredo@ua.pt">bernardo.figueiredo@ua.pt</a></td>
-    <td><a href="https://github.com/LeikRad">LeikRad</a></td>
+    <td>114640</td>
+    <td>Filipe Oliveira</td>
+    <td><a href="mailto:filiperoliveira@ua.pt">filiperoliveira@ua.pt</a></td>
+    <td><a href="https://github.com/filipeoliveira0">filipeoliveira0</a></td>
     <td>Frontend</td>
   </tr>
-  <tr>
-    <td>107359</td>
-    <td>Duarte Cruz</td>
-    <td><a href="mailto:duarteccruz@ua.pt">duarteccruz@ua.pt</a></td>
-    <td><a href="https://github.com/DuarteCruz31">DuarteCruz31</a></td>
-    <td>Backend</td>
-  </tr>
-    <tr>
-    <td>107637</td>
-    <td>André Oliveira</td>
-    <td><a href="mailto:andreaoliveira@ua.pt">andreaoliveira@ua.pt</a></td>
-    <td><a href="https://github.com/andreaoliveira9">Andreaoliveira9</a></td>
-    <td>Backend</td>
-  </tr>
+
 </table>
 
 ## Advisors
 
-- **Teacher** [Dr. Osvaldo Pacheco](https://www.ua.pt/pt/p/10313442)
-- **Teacher** [Dr. Rui Costa](https://www.ua.pt/pt/degeit/rui_augusto_da_costa)
-- **Dr.** [Daniel Ferreira](https://www.ua.pt/pt/p/80653922)
+- **Teacher** [Dr. João Almeida](https://www.ua.pt/pt/p/80334491)
