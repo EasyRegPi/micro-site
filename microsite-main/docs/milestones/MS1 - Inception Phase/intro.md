@@ -23,7 +23,7 @@ To address these challenges, EasyReg offers a centralized, automated compliance 
 
 
 
-**Website**: [Trailblazer Website](To be added)
+**Website**: [EasyReg Website](To be added)
 
 ## Our Team
 

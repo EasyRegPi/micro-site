@@ -1,6 +1,6 @@
 # Website
 
-Microsite for Trailblazer Platform
+Microsite for EastReg
 
 ### Installation
 

@@ -13,7 +13,7 @@ const config = {
   favicon: "img/logo.png",
 
   // Set the production url of your site here
-  url: "https://easyregpi.github.io/micro-site/",
+  url: "https://pi-easyreg.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/micro-site/",
@@ -67,7 +67,7 @@ const config = {
       navbar: {
         title: "EasyRegPi",
         logo: {
-          alt: "Trailblazer Logo",
+          alt: "EasyReg Logo",
           src: "img/logo.png",
         },
         items: [
