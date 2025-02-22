@@ -10,10 +10,10 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: 'EasyReg',
   tagline: "Security Compliance Platform",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.png",
 
   // Set the production url of your site here
-  url: "https://pi-easyreg.github.io",
+  url: "https://easyregpi.github.io/micro-site/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/micro-site/",

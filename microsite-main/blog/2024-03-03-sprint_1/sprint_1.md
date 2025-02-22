@@ -18,23 +18,23 @@ authors: [miguels]
 
 ## Sprint Goal
 
-In order to complete the second milestone of our project, it is expectable to conclude the following sprints goals:
+In order to complete the first milestone of our project, it is expectable to conclude the following sprints goals:
 
-- Functional requirements
-- Non-functional requirements
 - Actors and Use Cases
-- Data Domain Model
-- UI Mockups
-- Architecture and Design
-- Technology Stack
-- State of the Art
-- Update all the documentation
+- Users Stories
+- Mockups
+- Architecture/Technologies Used 
+- Presentation
+- 
+
+
+
+
 
 | Expected     | Quantity |
 | ------------ | -------- |
 | Tasks        | 9        |
-| Epics        | 1        |
-| Story Points | 45       |
+
 
 ## Sprint Backlog
 
@@ -69,11 +69,3 @@ In order to complete the second milestone of our project, it is expectable to co
 | Tasks        | 7        |
 | Epics        | 1        |
 | Story Points | 36       |
-
-## Sprint Retrospective
-
-This sprint saw substantial completion of tasks, but UI Mockups and documentation updates were not finished due to time constraints as other tasks took longer than expected. The team will look at ways to better estimate the time required for complex tasks and adjust the sprint planning accordingly to ensure all tasks can be completed within the given timeframe. Going forward, this understanding will inform better allocation of efforts across tasks.
-
-## Sprint Burnup Chart
-
-![Burndown Chart](../../static/img/sprints/burndown_chart_sprint_1.png)

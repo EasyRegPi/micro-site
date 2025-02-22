@@ -22,9 +22,6 @@ To address these challenges, EasyReg offers a centralized, automated compliance 
 - **Framework Mapping & Cross-Compliance**: Streamline compliance efforts by mapping requirements across multiple frameworks and identifying overlapping controls for optimization.
 
 
-### Project Schema
-
-![Trailblazer Schema](../../../static/img/trailblazer_schema.png)
 
 **Website**: [Trailblazer Website](To be added)
 
@@ -64,6 +61,13 @@ To address these challenges, EasyReg offers a centralized, automated compliance 
     <td>Filipe Oliveira</td>
     <td><a href="mailto:filiperoliveira@ua.pt">filiperoliveira@ua.pt</a></td>
     <td><a href="https://github.com/filipeoliveira0">filipeoliveira0</a></td>
+    <td>Frontend</td>
+  </tr>
+  <tr>
+    <td>104063</td>
+    <td>Ana Loureiro</td>
+    <td><a href="mailto:ana.sl@ua.pt">ana.sl@ua.pt</a></td>
+    <td><a href="https://github.com/AnaSL-WRK">AnaSL-WRK</a></td>
     <td>Frontend</td>
   </tr>
 
