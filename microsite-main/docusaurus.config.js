@@ -16,12 +16,12 @@ const config = {
   url: "https://pi-easyreg.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/micro-site/",
+  baseUrl: "/microsite/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "EasyRegPi", // Usually your GitHub org/user name.
-  projectName: "micro-site", // Usually your repo name.
+  projectName: "microsite", // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: "throw",
