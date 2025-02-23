@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://pi-easyreg.github.io/micro-site/blog</id>
+    <title>EasyReg Blog</title>
+    <updated>2025-02-24T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://pi-easyreg.github.io/micro-site/blog"/>
+    <subtitle>EasyReg Blog</subtitle>
+    <icon>https://pi-easyreg.github.io/micro-site/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Sprint 1]]></title>
+        <id>https://pi-easyreg.github.io/micro-site/blog/Sprint 1</id>
+        <link href="https://pi-easyreg.github.io/micro-site/blog/Sprint 1"/>
+        <updated>2025-02-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From: 2025-02-19]]></summary>
+        <content type="html"><![CDATA[<p><strong>From</strong>: 2025-02-19</p>
+<p><strong>To</strong>: 2025-02-25</p>
+<p><strong>Scrum Master</strong>: Miguel Francisco</p>
+<p><strong>Product Owner</strong>: Gonçalo Monteiro</p>
+<p><strong>Developers</strong>: Miguel Pinto, Filipe Oliveira, Ana Loureiro</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-goal">Sprint Goal<a href="https://pi-easyreg.github.io/micro-site/blog/Sprint%201#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal">​</a></h2>
+<p>In order to complete the first milestone of our project, it is expectable to conclude the following sprints goals:</p>
+<ul>
+<li>Actors and Use Cases</li>
+<li>Users Stories</li>
+<li>Mockups</li>
+<li>Architecture</li>
+<li>Technologies Used</li>
+<li>Presentation</li>
+<li>Similar Applications</li>
+<li>Github Backlog</li>
+<li>Microsite</li>
+</ul>
+<table><thead><tr><th>Expected</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>9</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-backlog">Sprint Backlog<a href="https://pi-easyreg.github.io/micro-site/blog/Sprint%201#sprint-backlog" class="hash-link" aria-label="Direct link to Sprint Backlog" title="Direct link to Sprint Backlog">​</a></h2>
+<table><thead><tr><th>Task (Trail-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>Trail-1</td><td>Actors and Use Cases</td><td>Gonçalo Monteiro</td><td>Done</td><td>5</td></tr><tr><td>Trail-2</td><td>Users Stories</td><td>Filipe Oliveira</td><td>Done</td><td>5</td></tr><tr><td>Trail-3</td><td>Mockups</td><td>Ana Loureiro</td><td>Done</td><td>5</td></tr><tr><td>Trail-4</td><td>Architecture</td><td>Miguel Francisco</td><td>Done</td><td>5</td></tr><tr><td>Trail-5</td><td>Technologies Used</td><td>Miguel Francisco</td><td>Done</td><td>5</td></tr><tr><td>Trail-6</td><td>Presentation</td><td>Miguel Pinto,    Gonçalo Monteiro</td><td>Done</td><td>5</td></tr><tr><td>Trail-7</td><td>Similar Applications</td><td>Miguel Pinto</td><td>Done</td><td>5</td></tr><tr><td>Trail-8</td><td>Github Backlog</td><td>Filipe Oliveira</td><td>Done</td><td>5</td></tr><tr><td>Trail-9</td><td>Microsite</td><td>Miguel Francisco</td><td>Done</td><td>5</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="task-status-completednot-completed">Task Status (Completed/Not Completed)<a href="https://pi-easyreg.github.io/micro-site/blog/Sprint%201#task-status-completednot-completed" class="hash-link" aria-label="Direct link to Task Status (Completed/Not Completed)" title="Direct link to Task Status (Completed/Not Completed)">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Trail-1: Actors and Use Cases</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Trail-2: Users Stories</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Trail-3: Mockups</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Trail-4: Architecture</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Trail-5: Technologies Used</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Trail-6: Presentation</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Trail-7: Similar Applications</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Trail-9: Github Backlog</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Trail-8: Microsite</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://pi-easyreg.github.io/micro-site/blog/Sprint%201#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review">​</a></h2>
+<table><thead><tr><th>Concluded</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>9</td></tr><tr><td>Story Points</td><td>45</td></tr></tbody></table>]]></content>
+        <author>
+            <name>Miguel Francisco</name>
+            <uri>https://github.com/MiguelSoaresFrancisco2</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Team]]></title>
+        <id>https://pi-easyreg.github.io/micro-site/blog/team_presentation</id>
+        <link href="https://pi-easyreg.github.io/micro-site/blog/team_presentation"/>
+        <updated>2025-02-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[---]]></summary>
+        <content type="html"><![CDATA[<hr>
+<p>During the development of our application we spread the work to be done by sprints. Each sprint had a duration of 1/2 weeks and at the end of each sprint we had a meeting to discuss the work done and the work to be done in the next sprint.</p>
+<p>The distribution made is listed below:</p>
+<table><thead><tr><th>Sprint</th><th>Scrum Master</th><th>Product Owner</th><th>Developers</th></tr></thead><tbody><tr><td>1</td><td>Miguel Francisco</td><td>Gonçalo Monteiro</td><td>Miguel Pinto, Filipe Oliveira, Ana Loureiro</td></tr></tbody></table>]]></content>
+        <author>
+            <name>Miguel Francisco</name>
+            <uri>https://github.com/MiguelSoaresFrancisco2</uri>
+        </author>
+        <author>
+            <name>Miguel Pinto</name>
+            <uri>https://github.com/M10D12</uri>
+        </author>
+        <author>
+            <name>Gonçalo Monteiro</name>
+            <uri>https://github.com/Girafa3456</uri>
+        </author>
+        <author>
+            <name>Filipe Oliveira</name>
+            <uri>https://github.com/filipeoliveira0</uri>
+        </author>
+        <author>
+            <name>Ana Loureiro</name>
+            <uri>https://github.com/AnaSL-WRK</uri>
+        </author>
+    </entry>
+</feed>
