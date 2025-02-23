@@ -4,21 +4,23 @@ sidebar_position: 2
 
 # First Presentation
 
-**Full Apresentation** - [MS1 - Trailblazer](../../../static/pdfs/M1_TrailBlazer.pdf)
+**Full Apresentation** - [MS1 - EasyReg](https://gamma.app/docs/EasyReg-2fn8nzdxka9zj6q)
 
-## Context
+## Context Of Problem
 
-Portugal's economic growth is significantly tied to tourism, as highlighted by Nuno Fazenda, the Secretary of State for Tourism, Trade, and Services, who declared 2023 as "the best year in the history of Portuguese tourism," with a 10% increase compared to the previous peak year, 2019.
+Multiple Compliance Requirements:
 
-In response to this growth, the Recovery and Resilience Plan (PRR) initiated the ATT agenda (Accelerate and Transform Tourism), focusing on the implementation of disruptive and innovative solutions across selected focal points throughout the tourist experience, with our project being a key component of this agenda.
+Organizations need to adhere to multiple frameworks, each with its own compliance requirements, resulting in significant complexity in managing the process.
 
-Another crucial aspect is the management of the vast amount of data involved in these processes. A primary focus is the consolidation of this data into a single, isolated location (for each locality) to simplify decision-making regarding activities, infrastructure, transport, etc. Enhancing data aggregation better meets tourists' preferences, making the tourism cycle fully dependent on their involvement and decision-making.
+Need for an Integrated Solution:
 
-## Problem
+There is a demand for a centralized platform that automates the tracking and management of requirements, optimizing workflows and ensuring security.
 
-Existing tourism support systems face a critical issue: service fragmentation across multiple platforms. For instance, a business that owns both a hostel and a restaurant may have to manage them on separate platforms. This separation complicates data analysis and necessitates managing profiles on multiple platforms, which can be tedious and inconvenient.
 
-Furthermore, Low-Density Population Areas encounter significant challenges in managing their tourism destinations due to infrastructure limitations, sparse populations, and incompatibility with mass tourism models, leading to difficulties in promotion, marketing, and visibility of their tourism destinations.
+Manual Processes and Risks:
+
+Manual evidence collection and audit execution increase the risk of inconsistencies and errors, while also requiring significant operational effort.
+
 
 ## Solution
 
@@ -28,23 +30,26 @@ To address the previously mentioned challenges, our platform will integrate vari
 
 **Goals:**
 
-1. **Personalized Travel Experiences**: Tailor every itinerary to match individual tourist interests, ensuring a unique journey.
-2. **Insight into Emerging Trends**: Leverage predictive analytics for informed decision-making across infrastructure development and marketing strategies.
-3. **Workflow Optimization**: Enhance efficiency through auto-tagging and sentiment analysis, minimizing manual tasks and improving customer understanding.
+1. **Develop a centralized platform for managing requirements across multiple frameworks.**
+2. **Detailed and customized reports with relevant insights for decision-making.**
+3. **Automatic tracking of compliance status, ensuring accuracy and real-time updates.**
 
 ## Key Features
 
-- **Personalized Recommendations**: Tailored travel suggestions for a personal experience.
-- **Sentiment Analysis**: Continuously refine services by interpreting user feedback for realistic quantitative insights.
-- **Predictive Analytics**: Anticipate tourism trends for strategic planning.
-- **Optimal Activity Selection**: Highlight the best of each destination for memorable experiences.
-- **Market Insights**: Provide valuable data for stakeholders to better understand and serve the market.
-- **Auto-Tagging**: Increase recommendation accuracy, making activity and event search more efficient.
 
-## State of Related Work
 
-![Related Work](../../../static/img/related_work.png)
 
-This section examines the competitive landscape, comparing Trailblazer's comprehensive Destination Management System (DMS) against other market players. Unlike singular service platforms, Trailblazer introduces a centralized DMS, streamlining management across all aspects of a region's tourism services, which is a capability where traditional platforms like Booking and Expedia lack due to their non-isolated systems.
+- **Compliance Management Dashboard**
 
-Moreover, Trailblazer uniquely empowers stakeholders by offering a unified solution for purchasing and vending services/activities—addressing a gap that VisitPortugal has not filled. With the added edge of automated features like auto-tagging for activity listings and utilizing sentiment analysis coupled with predictive analytics, Trailblazer is set to revolutionize how tourist trends are anticipated and catered to, positioning itself as a leader in personalized tourism and data-driven decision-making.
+    - **Unified interface for monitoring compliance across multiple frameworks.**
+    
+    - **Customizable dashboards to track real-time status.**
+- **Automated Compliance Tracking**
+    - **Predefined templates for regulatory requirements.**
+    - **Automated evidence collection and gap analysis.**
+- **Audit Readiness & Reporting**
+    - **Automated report generation for audits.**
+    - **Role-based access control for secure document management.**
+- **Framework Mapping & Cross-Compliance**
+    - **Mapping of requirements across multiple frameworks to streamline compliance efforts.**
+    - **Identification of overlapping controls to optimize efforts.**

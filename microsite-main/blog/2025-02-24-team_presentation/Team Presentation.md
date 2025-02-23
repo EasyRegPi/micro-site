@@ -12,4 +12,4 @@ The distribution made is listed below:
 
 | Sprint | Scrum Master        | Product Owner       | Developers                                                             |
 | ------ | ------------------- | ------------------- | ---------------------------------------------------------------------- |
-| 1      | Hugo Correia        | Duarte Cruz         | Alexandre Cotorobai, Bernardo Figueiredo, Joaquim Rosa, André Oliveira |
+| 1      | Miguel Francisco        | Gonçalo Monteiro         | Miguel Pinto, Filipe Oliveira, Ana Loureiro|

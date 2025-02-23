@@ -23,7 +23,7 @@ sidebar_position: 3
   <tr>
     <td>08/04/2025 or 15/04/2025</td>
     <td><b>Mid-Term presentation and Prototype</b></td>
-    <td>: prototype; mid-term presentation with supervisors.</td>
+    <td>prototype; mid-term presentation with supervisors.</td>
   </tr>
   <tr>
     <td>27/05/2024</td>
