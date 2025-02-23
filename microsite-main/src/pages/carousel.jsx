@@ -1,7 +1,5 @@
 import React from 'react';
 import ImageCarousel from '@site/src/components/ImageCarousel';
-import Mockup1 from '@site/static/img/mockup/Mockup_Trailblazer-1.jpg';
-import Mockup2 from '@site/static/img/mockup/Mockup_Trailblazer-2.jpg';
 // ... importe todas as imagens ...
 
 const carouselItems = [

@@ -65,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: "img/card.jpg",
       navbar: {
-        title: "EasyRegPi",
+        title: "EasyReg",
         logo: {
           alt: "EasyReg Logo",
           src: "img/logo.png",
