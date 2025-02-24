@@ -58,9 +58,8 @@
         <id>https://pi-easyreg.github.io/micro-site/blog/team_presentation</id>
         <link href="https://pi-easyreg.github.io/micro-site/blog/team_presentation"/>
         <updated>2025-02-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[---]]></summary>
-        <content type="html"><![CDATA[<hr>
-<p>During the development of our application we spread the work to be done by sprints. Each sprint had a duration of 1/2 weeks and at the end of each sprint we had a meeting to discuss the work done and the work to be done in the next sprint.</p>
+        <summary type="html"><![CDATA[During the development of our application we spread the work to be done by sprints. Each sprint had a duration of 1/2 weeks and at the end of each sprint we had a meeting to discuss the work done and the work to be done in the next sprint.]]></summary>
+        <content type="html"><![CDATA[<p>During the development of our application we spread the work to be done by sprints. Each sprint had a duration of 1/2 weeks and at the end of each sprint we had a meeting to discuss the work done and the work to be done in the next sprint.</p>
 <p>The distribution made is listed below:</p>
 <table><thead><tr><th>Sprint</th><th>Scrum Master</th><th>Product Owner</th><th>Developers</th></tr></thead><tbody><tr><td>1</td><td>Miguel Francisco</td><td>Gonçalo Monteiro</td><td>Miguel Pinto, Filipe Oliveira, Ana Loureiro</td></tr></tbody></table>]]></content>
         <author>
@@ -82,6 +81,14 @@
         <author>
             <name>Ana Loureiro</name>
             <uri>https://github.com/AnaSL-WRK</uri>
+        </author>
+        <author>
+            <name>Joao Almeida</name>
+            <uri>https://github.com/joaorafaelalmeida</uri>
+        </author>
+        <author>
+            <name>Mariana Andrade</name>
+            <uri>https://github.com/MarianaAndrad</uri>
         </author>
     </entry>
 </feed>
