@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # First Presentation
 
-**Full Apresentation** - [MS1 - EasyReg](https://gamma.app/docs/EasyReg-2fn8nzdxka9zj6q)
+**Full Apresentation** - [MS1 - EasyReg](../../../static/ppt/EasyRegFinal3.pptx)
 
 ## Context Of Problem
 

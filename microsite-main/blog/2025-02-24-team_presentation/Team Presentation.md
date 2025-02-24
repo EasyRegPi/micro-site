@@ -1,8 +1,7 @@
 ---
 slug: team_presentation
 title: The Team
-authors: [miguels, miguelp, goncalom, filipeo, analoureiro]
----
+authors: [miguels, miguelp, goncalom, filipeo, analoureiro, joaoalmeida, mariana]
 
 ---
 
