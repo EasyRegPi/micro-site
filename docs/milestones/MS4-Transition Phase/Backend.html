@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-milestones/MS4-Transition Phase/Backend" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.1.1">
+<title data-rh="true">Backend | EasyReg</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://pi-easyreg.github.io/micro-site/img/card.jpg"><meta data-rh="true" name="twitter:image" content="https://pi-easyreg.github.io/micro-site/img/card.jpg"><meta data-rh="true" property="og:url" content="https://pi-easyreg.github.io/micro-site/docs/milestones/MS4-Transition Phase/Backend"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Backend | EasyReg"><meta data-rh="true" name="description" content="🔧 Backend – Entrega Final (MS4)"><meta data-rh="true" property="og:description" content="🔧 Backend – Entrega Final (MS4)"><link data-rh="true" rel="icon" href="/micro-site/img/logo.png"><link data-rh="true" rel="canonical" href="https://pi-easyreg.github.io/micro-site/docs/milestones/MS4-Transition Phase/Backend"><link data-rh="true" rel="alternate" href="https://pi-easyreg.github.io/micro-site/docs/milestones/MS4-Transition Phase/Backend" hreflang="en"><link data-rh="true" rel="alternate" href="https://pi-easyreg.github.io/micro-site/docs/milestones/MS4-Transition Phase/Backend" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/micro-site/blog/rss.xml" title="EasyReg RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/micro-site/blog/atom.xml" title="EasyReg Atom Feed"><link rel="stylesheet" href="/micro-site/assets/css/styles.062583d9.css">
+<script src="/micro-site/assets/js/runtime~main.6c5e8d59.js" defer="defer"></script>
+<script src="/micro-site/assets/js/main.0badaf75.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/micro-site/"><div class="navbar__logo"><img src="/micro-site/img/logo.png" alt="EasyReg Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/micro-site/img/logo.png" alt="EasyReg Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">EasyReg</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/micro-site/docs/category/milestones-1">Documentation</a><a class="navbar__item navbar__link" href="/micro-site/blog">The Team</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/EasyRegPi" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link github-link">GitHub</a><a href="https://github.com/orgs/EasyRegPi/projects/1" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link githubprojects-link">GitHub Projects</a><a href="https://uapt33090-my.sharepoint.com/:f:/g/personal/miguel_soares_francisco_ua_pt/EiXNI0kR7lRBuCfB-Csr9C8BZUlIxQ3wpr2zhDodxAZQyQ?e=W2TLzc" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link drive-link">Drive</a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" aria-expanded="true" href="/micro-site/docs/category/milestones-1">Milestones</a><button aria-label="Collapse sidebar category &#x27;Milestones&#x27;" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" tabindex="0" href="/micro-site/docs/milestones/MS1 - Inception Phase/intro">MS1 - Inception Phase</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" tabindex="0" href="/micro-site/docs/milestones/MS2-Elaboration/presentation">MS2-Elaboration</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" tabindex="0" href="/micro-site/docs/milestones/MS3-construction Phase/presentation">MS3-construction Phase</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" aria-expanded="true" tabindex="0" href="/micro-site/docs/milestones/MS4-Transition Phase/presentation">MS4-Transition Phase</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/micro-site/docs/milestones/MS4-Transition Phase/presentation">presentation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/micro-site/docs/milestones/MS4-Transition Phase/PAGES">PAGES</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/micro-site/docs/milestones/MS4-Transition Phase/Backend">Backend</a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/micro-site/docs/milestones/calendar">Calendar</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/micro-site/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/micro-site/docs/category/milestones-1"><span itemprop="name">Milestones</span></a><meta itemprop="position" content="1"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">MS4-Transition Phase</span><meta itemprop="position" content="2"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Backend</span><meta itemprop="position" content="3"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Backend</h1></header><h2 class="anchor anchorWithStickyNavbar_LWe7" id="-backend--entrega-final-ms4">🔧 Backend – Entrega Final (MS4)<a href="#-backend--entrega-final-ms4" class="hash-link" aria-label="Direct link to 🔧 Backend – Entrega Final (MS4)" title="Direct link to 🔧 Backend – Entrega Final (MS4)">​</a></h2>
+<p>Durante a MS4, foram concluídos os seguintes pontos-chave:</p>
+<ul>
+<li>
+<p>Submissão, listagem, edição e eliminação de evidências, com possibilidade de associação a controlos, subcontrolos ou políticas;</p>
+</li>
+<li>
+<p>Gestão de ficheiros de evidência, incluindo download autenticado através de endpoint dedicado;</p>
+</li>
+<li>
+<p>Sistema completo de revisões internas por controlo, subcontrolo ou projeto, com histórico e monitorização do progresso da auditoria;</p>
+</li>
+<li>
+<p>Implementação da revisão externa por projeto, permitindo a validação final das auditorias internas por parte de auditores externos;</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-gestão-de-evidências">📎 Gestão de Evidências<a href="#-gestão-de-evidências" class="hash-link" aria-label="Direct link to 📎 Gestão de Evidências" title="Direct link to 📎 Gestão de Evidências">​</a></h2>
+<p>O módulo evidences permite criar, consultar, atualizar e remover evidências submetidas por membros de projeto. Estas evidências podem depois ser associadas a controlos, subcontrolos ou políticas.</p>
+<p>A API permite:</p>
+<ul>
+<li>
+<p>Listar e criar evidências (GET /evidences/, POST /evidences/);</p>
+</li>
+<li>
+<p>Visualizar, editar e eliminar evidências (GET, PUT, PATCH, DELETE por ID);</p>
+</li>
+<li>
+<p>Todas as operações exigem autenticação com permissões de projeto.</p>
+</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Lista de evidencias" src="/micro-site/assets/images/api_evidencias-3a1e17e425ebb4750297da0c72547616.png" width="907" height="413" class="img_ev3q"></p>
+<blockquote>
+<p>📸 Imagem – Endpoints de gestão CRUD de evidências submetidas pelos utilizadores.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-associação-de-evidências">📌 Associação de Evidências<a href="#-associação-de-evidências" class="hash-link" aria-label="Direct link to 📌 Associação de Evidências" title="Direct link to 📌 Associação de Evidências">​</a></h2>
+<p>O módulo project-evidence permite associar evidências criadas anteriormente a elementos específicos do projeto, como controlos, subcontrolos ou políticas.</p>
+<p>A API permite:</p>
+<ul>
+<li>
+<p>Associar evidências a controlos, subcontrolos ou policies;</p>
+</li>
+<li>
+<p>Listar evidências associadas a cada tipo de entidade;</p>
+</li>
+<li>
+<p>Todas as operações são autenticadas e exigem pertença ao projeto.</p>
+</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Lista de evidencias do projeto" src="/micro-site/assets/images/api_project-evi-915ba4aa8875473f6554a4623a402ed8.png" width="1501" height="415" class="img_ev3q"></p>
+<blockquote>
+<p>📸 Imagem – Endpoints para associar evidências aos componentes de conformidade do projeto.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-revisão-por-auditor-interno">✅ Revisão por Auditor Interno<a href="#-revisão-por-auditor-interno" class="hash-link" aria-label="Direct link to ✅ Revisão por Auditor Interno" title="Direct link to ✅ Revisão por Auditor Interno">​</a></h2>
+<p>O módulo internal-auditor-review permite aos auditores internos rever as evidências submetidas, registando observações e aprovações diretamente ligadas a controlos e subcontrolos.</p>
+<p>A API permite:</p>
+<ul>
+<li>
+<p>Submeter revisões (POST /internal-auditor-review/);</p>
+</li>
+<li>
+<p>Listar revisões por projeto, controlo ou subcontrolo;</p>
+</li>
+<li>
+<p>Consultar progresso geral de auditoria interna;</p>
+</li>
+<li>
+<p>Consultar histórico de revisões por subcontrolo.</p>
+</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Lista de auditor interno" src="/micro-site/assets/images/api_internal_auditor-415b502d356177e415354c08f23dde52.png" width="1501" height="702" class="img_ev3q"></p>
+<blockquote>
+<p>📸 Imagem – Endpoints de revisão interna por controlo, projeto e subcontrolo.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-revisão-por-auditor-externo">🕵️ Revisão por Auditor Externo<a href="#️-revisão-por-auditor-externo" class="hash-link" aria-label="Direct link to 🕵️ Revisão por Auditor Externo" title="Direct link to 🕵️ Revisão por Auditor Externo">​</a></h2>
+<p>O módulo external-project-review permite que um auditor externo avalie o estado de conformidade de um projeto após a auditoria interna. Esta revisão atua como uma validação adicional, reforçando o rigor do processo de avaliação.</p>
+<p>A API permite:</p>
+<ul>
+<li>
+<p>Listar todas as auditorias externas realizadas;</p>
+</li>
+<li>
+<p>Criar novas revisões externas para projetos;</p>
+</li>
+<li>
+<p>Obter todas as revisões associadas a um projeto específico;</p>
+</li>
+<li>
+<p>Consultar, atualizar ou eliminar revisões por ID;</p>
+</li>
+<li>
+<p>Todas as operações são protegidas por autenticação.</p>
+</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Lista de auditor externo" src="/micro-site/assets/images/api_external_audit-4e069c17c4db8df28f67f6da578fff02.png" width="904" height="482" class="img_ev3q"></p>
+<blockquote>
+<p>📸 Imagem – Endpoints de revisão externa, incluindo criação, consulta e gestão de auditorias por projeto.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-gestão-de-revisões-internas-de-políticas">🔍 Gestão de Revisões Internas de Políticas<a href="#-gestão-de-revisões-internas-de-políticas" class="hash-link" aria-label="Direct link to 🔍 Gestão de Revisões Internas de Políticas" title="Direct link to 🔍 Gestão de Revisões Internas de Políticas">​</a></h2>
+<p>O módulo internal-policy-review disponibiliza uma API REST que permite aos auditores internos criar, consultar, editar e eliminar revisões associadas a políticas de conformidade dentro de um projeto. Esta funcionalidade centraliza a avaliação das evidências fornecidas e garante o registo histórico de revisões feitas por cada auditor.</p>
+<p>A API permite:</p>
+<ul>
+<li>
+<p>Listar todas as revisões realizadas ou filtrar por política e projeto;</p>
+</li>
+<li>
+<p>Submeter uma nova revisão para uma política específica, associando comentários e estado (approved ou rejected);</p>
+</li>
+<li>
+<p>Editar uma revisão previamente submetida com base no review_id;</p>
+</li>
+<li>
+<p>Eliminar revisões tanto por review_id diretamente como via endpoint dedicado;</p>
+</li>
+<li>
+<p>Todos os endpoints estão protegidos por autenticação JWT com permissões baseadas no papel do utilizador.</p>
+</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Lista de auditor externo" src="/micro-site/assets/images/api_policy1_review-0ccd3cdff3d27bed8d926cb514135f05.png" width="1486" height="586" class="img_ev3q"></p>
+<blockquote>
+<p>📸 Imagem – Endpoints disponíveis para gerir revisões internas de políticas, incluindo criação, consulta, edição e remoção.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-download-de-ficheiros-de-evidência">⬇️ Download de Ficheiros de Evidência<a href="#️-download-de-ficheiros-de-evidência" class="hash-link" aria-label="Direct link to ⬇️ Download de Ficheiros de Evidência" title="Direct link to ⬇️ Download de Ficheiros de Evidência">​</a></h2>
+<p>O módulo media_download disponibiliza um endpoint que permite o download seguro dos ficheiros enviados como evidência durante a submissão ou revisão de conformidade. Este endpoint garante que apenas utilizadores autenticados com permissões adequadas podem aceder aos ficheiros.</p>
+<p>A API permite:</p>
+<ul>
+<li>
+<p>Realizar o download de ficheiros de evidência com base no caminho do ficheiro (filepath);</p>
+</li>
+<li>
+<p>O acesso ao ficheiro está protegido por autenticação JWT;</p>
+</li>
+<li>
+<p>Este endpoint é utilizado em conjunto com a gestão de evidências e revisões.</p>
+</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Lista de auditor externo" src="/micro-site/assets/images/api_file-844b9f52cd761db49bebb19e651529ef.png" width="907" height="113" class="img_ev3q"></p>
+<p>📸 Imagem – Endpoint protegido para o download de ficheiros submetidos como evidência.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/micro-site/docs/milestones/MS4-Transition Phase/PAGES"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">PAGES</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/micro-site/docs/milestones/calendar"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Calendar</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-backend--entrega-final-ms4" class="table-of-contents__link toc-highlight">🔧 Backend – Entrega Final (MS4)</a></li><li><a href="#-gestão-de-evidências" class="table-of-contents__link toc-highlight">📎 Gestão de Evidências</a></li><li><a href="#-associação-de-evidências" class="table-of-contents__link toc-highlight">📌 Associação de Evidências</a></li><li><a href="#-revisão-por-auditor-interno" class="table-of-contents__link toc-highlight">✅ Revisão por Auditor Interno</a></li><li><a href="#️-revisão-por-auditor-externo" class="table-of-contents__link toc-highlight">🕵️ Revisão por Auditor Externo</a></li><li><a href="#-gestão-de-revisões-internas-de-políticas" class="table-of-contents__link toc-highlight">🔍 Gestão de Revisões Internas de Políticas</a></li><li><a href="#️-download-de-ficheiros-de-evidência" class="table-of-contents__link toc-highlight">⬇️ Download de Ficheiros de Evidência</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 EasyReg, Projeto informática</div></div></div></footer></div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"The Team","items":[{"title":"The Team","permalink":"/micro-site/blog/team_presentation","unlisted":false}]}')}}]);
