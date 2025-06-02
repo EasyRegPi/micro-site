@@ -4,7 +4,7 @@ sidebar_position: 1
 
 ##  📌 Apresentação do Trabalho – (MS4)
 
-**Full Apresentation** - [MS4 - EasyReg](../../../static/ppt/EasyRegMS3.pptx)
+**Full Apresentation** - [MS4 - EasyReg](../../../static/ppt/EasyRegMS4.pptx)
 
 A Milestone 4 representa a fase final do desenvolvimento do projeto EasyReg, consolidando todas as funcionalidades planeadas e garantindo uma solução funcional, segura e pronta a ser utilizada em contexto real.
 
