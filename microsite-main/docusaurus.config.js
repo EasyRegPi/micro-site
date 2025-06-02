@@ -48,7 +48,7 @@ const config = {
         blog: {
           showReadingTime: true,
           blogSidebarCount: "ALL",
-          blogSidebarTitle: "Sprints",
+          blogSidebarTitle: "The Team",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
@@ -77,7 +77,7 @@ const config = {
             position: "left",
             label: "Documentation",
           },
-          { to: "/blog", label: "Sprints", position: "left" },
+          { to: "/blog/", label: "The Team", position: "left" },
           {
             to: "https://github.com/EasyRegPi",
             label: "GitHub",
