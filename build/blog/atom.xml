@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://pi-easyreg.github.io/micro-site/blog</id>
+    <title>EasyReg Blog</title>
+    <updated>2025-02-24T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://pi-easyreg.github.io/micro-site/blog"/>
+    <subtitle>EasyReg Blog</subtitle>
+    <icon>https://pi-easyreg.github.io/micro-site/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[The Team]]></title>
+        <id>https://pi-easyreg.github.io/micro-site/blog/team_presentation</id>
+        <link href="https://pi-easyreg.github.io/micro-site/blog/team_presentation"/>
+        <updated>2025-02-24T00:00:00.000Z</updated>
+        <author>
+            <name>Miguel Francisco</name>
+            <uri>https://github.com/MiguelSoaresFrancisco2</uri>
+        </author>
+        <author>
+            <name>Miguel Pinto</name>
+            <uri>https://github.com/M10D12</uri>
+        </author>
+        <author>
+            <name>Gonçalo Monteiro</name>
+            <uri>https://github.com/Girafa3456</uri>
+        </author>
+        <author>
+            <name>Filipe Oliveira</name>
+            <uri>https://github.com/filipeoliveira0</uri>
+        </author>
+        <author>
+            <name>Ana Loureiro</name>
+            <uri>https://github.com/AnaSL-WRK</uri>
+        </author>
+        <author>
+            <name>Joao Almeida</name>
+            <uri>https://github.com/joaorafaelalmeida</uri>
+        </author>
+        <author>
+            <name>Mariana Andrade</name>
+            <uri>https://github.com/MarianaAndrad</uri>
+        </author>
+    </entry>
+</feed>
